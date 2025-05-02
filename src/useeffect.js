@@ -45,7 +45,7 @@ function ApiProject() {
            <div style={{display:"flex",alignItems:"center",gap:"1rem",margin:"1rem"}}>
              <HomePage/>
              <label> MINPOPULATION <input type="number" value={minpopulation} onChange={(e=>setminpopulation(e.target.value))} style={{margin:"0.5rem"}}></input></label>
-             <label> MINPOPULATION <input type="number" value={maxpopulation} onChange={(e=>setmaxpopulation(e.target.value))} style={{margin:"0.5rem"}}></input></label>
+             <label> MAXPOPULATION <input type="number" value={maxpopulation} onChange={(e=>setmaxpopulation(e.target.value))} style={{margin:"0.5rem"}}></input></label>
              </div>
         
         <div className="container" style={{backgroundColor:"#e0f7fa"}} >
